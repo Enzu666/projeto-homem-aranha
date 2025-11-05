@@ -1,3 +1,6 @@
+:root {
+  font-family: Carter One, sans-serif;
+}
 body{
   height: 100vh;
   background: linear-gradient(black, black, #6700AC);
