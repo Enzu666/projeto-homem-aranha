@@ -196,3 +196,21 @@ body{
   transform: translate(-13%, 5%);
  
 }
+/*tablet*/
+@media (max-width: 1024px){
+  body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(black, black, black, #6700AC);
+  }
+  .atores{
+   padding: 0;
+  }
+  .caixa-diretor{
+    padding: 0;
+  }
+}
+@media (max-width: 480px){
+
+}
