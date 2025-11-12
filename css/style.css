@@ -1,9 +1,9 @@
-:root {
-  font-family: Carter One, sans-serif;
-}
 body{
-  height: 100vh;
-  background: linear-gradient(black, black, #6700AC);
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background: linear-gradient(black, black, black, #6700AC, #6700AC);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,68 +18,107 @@ body{
   height: auto;
 }
 .texto1{
-  margin-top:20px ;
+  margin-top:25px ;
   color: white; 
-  font-size: 24px;
+  font-size: 35px;
 }
 .texto1 p{
   display: inline-block;
   margin-right: 15px; 
 }
 .logo img{
-  margin-top: 20px;
+  margin-top: 30px;
   margin-left: 90px;
-  width: 78px;
-  height: 78px;
+  width: 90px;
+  height: auto;
+}
+.seta-play{
+  position: absolute;
+  transform: translate(60%, -110%);
 }
 .sino{
   margin-left: auto;
 }
 .spider h1{
+  font-family: Carter One, sans-serif;
   color: white;
-  font-size: 128px;
+  font-size: 190px;
   position: absolute;
   left: 0;
-  transform: translate(10%, -180%);
+  transform: translate(10%, -119%);
 }
 .spider h2{
+  font-family: Carter One, sans-serif;
   color: black;
-  font-size: 128px;
+  font-size: 190px;
   position: absolute;
   left: 0;
-  transform: translate(15%, -180%);
+  transform: translate(15%, -119%);
   text-shadow: 2px 2px 5px #FF0019;
   z-index: -2;
   
 }
-.man h1{
+.spider p{
   color: white;
-  font-size: 128px;
+  position: absolute;
+  font-size: 20px;
+  transform: translate(-65%, -350%);
+}
+.spider p img{
+  transform: translate(0%, 10%);
+  width: 50px;
+}
+.logo1 img{
+  width: 350px;
+  height: auto;
+  position: absolute;
+  transform: translate(-155%, -40%);
+}
+.redes-sociais img{
+  width: 250px;
+  position: absolute;
+  transform: translate(-80%, -30%);
+}
+.seta{
+  width: 250px;
+  position: absolute;
+  transform: translate(-175%, -10%);
+}
+.man h1{
+  font-family: Carter One, sans-serif;
+  color: white;
+  font-size: 180px;
   position: absolute;
   left: 180px;
-  transform: translate(230%, -150%);
+  transform: translate(235%, -110%);
 }
 .man h2{
+  font-family: Carter One, sans-serif;
   color: black;
-  font-size: 128px;
+  font-size: 180px;
   position: absolute;
   left: 180px;
-  transform: translate(235%, -150%);
+  transform: translate(240%, -115%);
   text-shadow: 2px 2px 5px #FF0019;
   z-index: -2;
 }
 .man p{
+  font-family: Caveat, sans-serif;
   color: #FF0019;
-  font-size: 80px;
+  font-size: 100px;
   position: absolute;
   left: -190px;
-  transform: translate(230%, -120%);
+  transform: translate(280%, -80%);
+}
+.mouse{
+  position: absolute;
+  transform: translate(470%, -40%);
 }
 
 
 .faixa {
   background-color: #FF0019;
-  width: 100vw;
+  width: 100%;
   height: 371px;
   display: flex;
   position: fixed;
@@ -92,12 +131,12 @@ body{
   display: flex;
   margin-left: auto;
   margin-right: 10px;
-  gap: 25px; 
+  gap: 30px; 
 }
 
 .circulo {
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   background-color: white;
   border-radius: 50%;
   display: flex;
@@ -119,7 +158,7 @@ body{
 
 .atores {
   color: white;
-  font-size: 24px; 
+  font-size: 30px; 
   margin: 10px; 
   padding-left: 67px;  
 }
@@ -145,14 +184,14 @@ body{
 }
 .ticket img{
   z-index: 1;
-  width: 342px;
+  width: 400px;
   height: auto;
-  transform: translate(30%, 40%);
+  transform: translate(20%, 35%);
 
 }
 .spider-man img{
   z-index: 10;
-  width: 716px;
+  width: 800px;
   height: auto;
   transform: translate(-13%, 5%);
  
